@@ -30,7 +30,7 @@ longer training time would definitely work better. maybe the model would find be
 |model|time_limit|presets|hpo|score|
 |--|--|--|--|--|
 |initial|600|best_quality|-| 1.80281 |
-|add_features|600|best_quality|-| 0.64955 |
+|add_features|600|best_quality|-| 0.49 |
 |hpo|600|best_quality|XGB:hyperparams| 1.34393 |
 
 
@@ -51,6 +51,6 @@ once without parameters and feature engineering.
 once with feature engineering
 once with feature engineering and hyperparameter tuning.
 
-The model after feature engineering would work much better if more features are improved.
-The model with hyperparameter tuning did not improve much.
+The model after feature engineering would work much better if more features are improved by 73%
+The model with hyperparameter tuning improved only by 25%
 
